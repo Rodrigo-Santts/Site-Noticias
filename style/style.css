@@ -12,7 +12,7 @@ body {
     color: #fff;
 }
 
-/* Menu de navegação e Header */
+                /***** Menu de navegação e Header *****/
 
 .header-menu {
     width: 100%;
@@ -62,7 +62,7 @@ body.fotos .nav-menu #fotos {
     background-color: #e00038;
 }
 
-                    /* conteúdo Principal */
+                /***** conteúdo Principal *****/
 
 .container {
     max-width: 1000px;
@@ -71,6 +71,11 @@ body.fotos .nav-menu #fotos {
     display: grid;
     grid-template-columns: 280px 360px 360px;
     gap: 15px;
+}
+
+.brasil .container{
+    width: 850px;
+    grid-template-columns: 280px auto;
 }
 
 .container h1 {
@@ -106,12 +111,17 @@ body.fotos .nav-menu #fotos {
     padding: 10px;
 }
 
-                    /* Formatação de colunas 2/3 */
+                /***** Formatação de colunas 2/3 *****/
 
 .img-section  {
     width: 360px;
     height: 245px;
     padding: 10px;
+}
+
+.brasil .img-section{
+    width: 550px;
+    height: 350px;
 }
                     
 .ultima-entrevistas {
@@ -144,10 +154,27 @@ body.fotos .nav-menu #fotos {
     color: #000;
     padding: 10px;
     font-size: 0.7em;
+}
+
+.mundo li, .noticias-recentes li{
     border-bottom: 1px solid black;
 }
 
-/* Aside list 'Entrevistas' */
+.brasil .ultima-entrevistas{
+    grid-column:2/3;
+    text-align: center;
+}
+
+.brasil .mundo{
+    grid-column: 2/3;
+}
+
+.brasil .mundo p{
+    width: 75%;
+    padding-bottom:5px;
+}
+
+                /***** Aside list 'Entrevistas' *****/
 
 .entrevistas-li {
     text-align: center;
@@ -168,7 +195,7 @@ body.fotos .nav-menu #fotos {
     transition: 0.2s;
 }
 
-/* form News */
+                /***** form News *****/
 
 .form-news {
     grid-row: 2;
@@ -201,7 +228,7 @@ label {
     font-weight: 600;
 }
 
-/* Rodapé */
+                /***** Rodapé *****/
 
 .foot-rodape {
     width: 100%;
