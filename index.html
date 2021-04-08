@@ -9,54 +9,75 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Notícias Cidade</title>
 </head>
-<body>
+<body class="home">
     <header class="header-menu">
-        <a href="#"><img src="img/logo.png" alt="Logo Notícias Cidade" class="img-logo"></a>
+        <a href="#"><img src="img/img-header/logo.png" alt="Logo Notícias Cidade" class="img-logo"></a>
         <nav class="nav-menu">
             <ul>
-                <a href="#" class="link-nav"><li>Home</li></a>
-                <a href="#" class="link-nav"><li>Brasil</li></a>
-                <a href="#" class="link-nav"><li>Internacional</li></a>
-                <a href="#" class="link-nav"><li>Economia</li></a>
-                <a href="#" class="link-nav"><li>Saúde</li></a>
-                <a href="#" class="link-nav"><li>Ciência</li></a>
-                <a href="#" class="link-nav"><li>Fotos</li></a>
+                <a href="index.html" class="link-nav" id="home"><li>Home</li></a>
+                <a href="brasil.html" class="link-nav" id="brasil"><li>Brasil</li></a>
+                <a href="enternacional.html" class="link-nav" id="internacional"><li>Internacional</li></a>
+                <a href="economia.html" class="link-nav" id="economia"><li>Economia</li></a>
+                <a href="saude.html" class="link-nav" id="saude"><li>Saúde</li></a>
+                <a href="ciencia.html" class="link-nav" id="ciencia"><li>Ciência</li></a>
+                <a href="fotos.html" class="link-nav" id="fotos"><li>Fotos</li></a>
             </ul>
         </nav>
-        <a href="#"><img src="/img/detalhe-topo.png" alt="" class="img-map"></a>
+        <img src="/img/img-header/detalhe-topo.png" alt="" class="img-map">
     </header>
-            <section class="conteiner">
-                    <div class="ultima-entrevistas" >
-                        <h1>Ultímas Notícias</h1>
-                        <h2>Entrevista com Felipe</h2>
-                        <img src="/img/doutor.jpg" alt="" class="img-section">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dolor ut! Debitis libero vitae neque labore perferendis beatae, exercitationem voluptatum perspiciatis .</p><br><a href="">Saiba Mais</a>
-                    </div>
-                    <div class="destaques">
-                        <h1>Destaques</h1>
-                        <h2>Nova Legislação</h2>
-                        <img src="/img/taxi.jpg" alt="" class="img-section">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dolor ut! Debitis libero vitae neque labore perferendis beatae, exercitationem voluptatum perspiciatis .</p><br><a href="">Saiba Mais</a>
-                    </div>
-                    <aside class="entrevistas-li">
-                        <h1>Entrevistas</h1>
-                        <ul>
-                            <a href="#"><li>José Almenida</li></a>
-                            <a href="#"><li>Felipe Silva</li></a>                                
-                            <a href="#"><li>Renato Rodrigues</li></a>
-                            <a href="#"><li>Abelardo Silveira</li></a>
-                            <a href="#"><li>André Carlos</li></a>
-                            <a href="#"><li>Márcio Mello</li></a>
-                            <a href="#"><li>joão Pedro</li></a>
-                            <a href="#"><li>Frenando Weriss</li></a>
-                        </ul>
-                    </aside>
-                    <form>
-                        <h1>News</h1>
-                        <label for="news">Email:</label>
-                        <input type="email" name="news" id="news" placeholder="Seu E-mail">
-                        <button type="submit" id="buttom">Cadastrar</button>
-                    </form>
-            </section>
+        <section class="container">
+            <div class="ultima-entrevistas" >
+                <h1>Ultímas Notícias</h1>
+                <h2>Entrevista com Felipe</h2>
+                <img src="/img/img-ultimas-destaques/medico.png" alt="" class="img-section">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dolor ut! Debitis libero vitae neque labore perferendis beatae, exercitationem voluptatum perspiciatis .</p><br><a href="#" class="link-paragrafo">Saiba Mais</a>
+            </div>
+            <div class="destaques">
+                <h1>Destaques</h1>
+                <h2>Nova Legislação</h2>
+                <img src="/img/img-ultimas-destaques/taxi.jpg" alt="" class="img-section">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dolor ut! Debitis libero  labore perferendis beatae, exercitationem voluptatum perspiciatis .</p><br><a href="#" class="link-paragrafo">Saiba Mais</a>
+            </div>vitae neque
+            <div class="mundo">
+                <h1>Mundo</h1>
+                <ul>
+                    <li><img src="/img/img-mundo/crise-eu.jpg" alt="" width="60px"><p><a href="#">CRISE EUROPÉIA</a><br> Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                    <li><img src="/img/img-mundo/usa.jpg" alt="" width="60px"><p><a href="#">USA TENTAM NOVO ACORDO</a><br> Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                    <li><img src="/img/img-mundo/siria.jpg" alt="" width="60px"><p><a href="#">GUERRA NA SÍRIA</a><br> Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                    <li><img src="/img/img-mundo/russia.jpg" alt="" width="60px"><p><a href="#">RUSSIA APROVA LEI</a><br>Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                </ul>
+            </div>
+            <div class="noticias-recentes">
+                <h1>Notícias recentes</h1>
+                <ul>
+                    <li><img src="/img/img-noti-recents/novas-tecnologias.jpg" alt="" width="60px"><p><a href="#">NOVAS TECNOLOGIAS!</a><br> Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                    <li><img src="/img/img-noti-recents/parlamento.jpg" alt="" width="60px"><p><a href="#">PARLAMENTO APROVA...</a><br> Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                    <li><img src="/img/img-noti-recents/taxi-city.jpg" alt="" width="60px"><p><a href="#">TAXISTAS NA CIDADE</a><br> Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                    <li><img src="/img/img-noti-recents/comissao-medicosjpg.jpg" alt="" width="60px"><p><a href="#">COMISSÃO DE MEDÍCOS</a><br>Lorem ipsum dolor sit amet sty amet amet ipsum dolor vitae neque labore sit ut!</p></li>
+                </ul>
+            </div>
+            <aside class="entrevistas-li">
+                <h1>Entrevistas</h1>
+                <ul>
+                    <a href="#"><li>José Almeida</li></a>
+                    <a href="#"><li>Felipe Silva</li></a>                                
+                    <a href="#"><li>Renato Rodrigues</li></a>
+                    <a href="#"><li>Abelard Silveira</li></a>
+                    <a href="#"><li>André Carlos</li></a>
+                    <a href="#"><li>Márcio Melo</li></a>
+                    <a href="#"><li>joão Pedro</li></a>
+                    <a href="#"><li>Frenando Weiss</li></a>
+                </ul>
+            </aside>
+            <form class="form-news">
+                <h1>News</h1>
+                <label for="news">Email:</label>
+                <input type="email" name="news" id="news" placeholder="Seu E-mail">
+                <button type="submit" id="button">Cadastrar</button>
+            </form>
+        </section>
+        <footer class="foot-rodape">
+            <h2>&copy;Copyright 2000-2021 Notícias Cidade</h2>
+        </footer>
 </body>
 </html>
